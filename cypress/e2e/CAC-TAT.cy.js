@@ -164,7 +164,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     .invoke('removeAttr', 'target')
     .click()
 
-  cy.contains('h1', 'CAC TAT - Política de Privacidade')
+  cy.contains('h1', 'CAC TAT - Política de Privacidade') //usar contains para algo em especifico
      .should('be.visible')
   })
 })
